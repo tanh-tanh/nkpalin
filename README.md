@@ -12,7 +12,9 @@ tìm chuỗi đối xứng.
 
 ## truy vết
 Bắt đầu từ dp[0][n-1] (lúc này giá trị đầu của biến l = 0 và r= n-1)
-> nếu l = r thì sẽ in ra vị trí s[l] và két thúc chương trình
- nếu s[l] = s[r] thì in ra vị trí s[l]  sau đó truy vết l+1, r-1 sau đó in ra s[r] và kết thúc chương trình
-> nếu dp[l][r] = dp[l+1][r] thì truy vết l+1, r nếu ko thì truy vết l, r-1
+>nếu l = r thì sẽ in ra vị trí s[l] và két thúc chương trình.
+
+>nếu s[l] = s[r] thì in ra vị trí s[l]  sau đó truy vết l+1, r-1 sau đó in ra s[r] và kết thúc chương trình
+
+>nếu dp[l][r] = dp[l+1][r] thì truy vết l+1, r nếu ko thì truy vết l, r-1
 ![truy vết](https://i.imgur.com/zbizube.png)
