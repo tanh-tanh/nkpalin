@@ -1,5 +1,5 @@
 # nkpalin
-tìm chuỗi đối xứng.
+tìm chuỗisads đối xứng.
 ## thuật toán
 >Ý tưởng:
 >giá trị đầu: 
